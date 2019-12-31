@@ -25,7 +25,7 @@ class Student
   
   def self.drop_table
     sql = <<-SQL 
-    CREATE TABLE IF NOT EXISTS students(
+    DROP TABLE IF EXISTS students(
     id INTEGER PRIMARY KEY,
     NAME TEXT,
     GRADE INTEGER
