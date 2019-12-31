@@ -19,6 +19,6 @@ class Student
     NAME TEXT,
     GRADE INTEGER
     )
-    <<
+    sql
   
 end
