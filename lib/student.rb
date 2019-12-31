@@ -40,6 +40,6 @@ class Student
   end
   
   def self.create(name:, grade:)
-    Student.new(name,grade)
+    a_student = Student.new(name,grade)
   end
 end
